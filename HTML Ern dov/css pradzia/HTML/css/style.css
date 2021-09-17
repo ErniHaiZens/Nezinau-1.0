@@ -1,0 +1,33 @@
+article{
+	border: 1px solid#000;
+}
+.vip{
+border: 1px solid#00ff88;
+}
+#super{
+	text-align: center;
+}
+
+a{
+	color: #ff88dd;
+}
+a[href="http://www.kitm.lt"]{
+	color: blue;
+}
+
+a[href$=".docx"]{
+	color: red;
+}
+a[href$=".xlsx"]{
+	color: green;
+}
+}
+a[href$=".pptx"]{
+	color: blue;
+}
+a[href*="https://"]{
+	color: black;
+}
+a:hover{
+	background-color: black;
+}
